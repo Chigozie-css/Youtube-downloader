@@ -1,0 +1,22 @@
+from asyncio import streams
+from pytube import YouTube
+
+url = 'https://youtu.be/Jitm4DtT2_8'
+my_video = YouTube(url)
+print("Video Title")
+
+print(my_video.title)
+
+print("Thumbnail Image")
+print(my_video.thumbnail_url)
+
+print("Download Video")
+my_video = my_video.streams.get_highest_resolution()
+
+# or my_video = my_video.streams.first()
+
+# for stream in my_video.streams:                 #IF I WANT THE VIDEO TO FULL MU SCREEN
+   # print(stream)
+
+
+my_video.download()
