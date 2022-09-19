@@ -1,7 +1,7 @@
 from asyncio import streams
 from pytube import YouTube
 
-url = 'https://youtu.be/Jitm4DtT2_8'
+url = 'https://youtu.be/Jitm4DtT2_8'           #CHANGE HERE AND PUT YOUR FAVORITE URL TO DOWNLOAD YOUR VIDEO url = ''
 my_video = YouTube(url)
 print("Video Title")
 
