@@ -15,7 +15,7 @@ my_video = my_video.streams.get_highest_resolution()
 
 # or my_video = my_video.streams.first()
 
-# for stream in my_video.streams:                 #IF I WANT THE VIDEO TO FULL MU SCREEN
+# for stream in my_video.streams:                 #IF YOU WANT THE VIDEO TO FULL YOUR SCREEN AND STREAM
    # print(stream)
 
 
